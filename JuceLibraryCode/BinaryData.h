@@ -11,11 +11,14 @@ namespace BinaryData
     extern const char*   Background_png;
     const int            Background_pngSize = 1518563;
 
+    extern const char*   KalideLogo_png;
+    const int            KalideLogo_pngSize = 684557;
+
     extern const char*   SoundfontManifest_xml;
     const int            SoundfontManifest_xmlSize = 16840;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 2;
+    const int namedResourceListSize = 3;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

@@ -14,11 +14,11 @@
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.IOSSynth</string>
+    <string>com.Kalide.KalideLite</string>
     <key>CFBundleName</key>
-    <string>IOSSynth</string>
+    <string>KalideLite</string>
     <key>CFBundleDisplayName</key>
-    <string>IOSSynth</string>
+    <string>KalideLite</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleSignature</key>

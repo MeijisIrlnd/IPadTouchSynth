@@ -40,8 +40,8 @@
 #if ! JUCE_DONT_DECLARE_PROJECTINFO
 namespace ProjectInfo
 {
-    const char* const  projectName    = "IOSSynth";
-    const char* const  companyName    = "";
+    const char* const  projectName    = "KalideLite";
+    const char* const  companyName    = "Kalide";
     const char* const  versionString  = "1.0.0";
     const int          versionNumber  = 0x10000;
 }

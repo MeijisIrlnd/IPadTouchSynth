@@ -15,9 +15,10 @@ BEGIN
   BEGIN
     BLOCK "040904E4"
     BEGIN
-      VALUE "FileDescription",  "IOSSynth\0"
+      VALUE "CompanyName",  "Kalide\0"
+      VALUE "FileDescription",  "KalideLite\0"
       VALUE "FileVersion",  "1.0.0\0"
-      VALUE "ProductName",  "IOSSynth\0"
+      VALUE "ProductName",  "KalideLite\0"
       VALUE "ProductVersion",  "1.0.0\0"
     END
   END
