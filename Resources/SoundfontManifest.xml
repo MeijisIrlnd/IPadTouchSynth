@@ -1,0 +1,443 @@
+<Soundfont>
+    <Bank name="0">
+        <Preset name="Utility" num="0"/>
+        <Preset name="sine long release" num="1"/>
+        <Preset name="Square" num="2"/>
+        <Preset name="Saw" num="3"/>
+        <Preset name="Microrhythm" num="4"/>
+        <Preset name="Electro" num="6"/>
+        <Preset name="Electro Hi" num="7"/>
+    </Bank>
+    <Bank name="1">
+        <Preset name="Myriad" num="0"/>
+        <Preset name="Puff" num="1"/>
+        <Preset name="Moog Chimes" num="2"/>
+        <Preset name="Quick Sweep" num="3"/>
+        <Preset name="Tails" num="4"/>
+        <Preset name="Prophet Release" num="5"/>
+        <Preset name="Dream Pong" num="6"/>
+        <Preset name="Ribbon" num="7"/>
+        <Preset name="Silly String" num="8"/>
+        <Preset name="Overtone" num="9"/>
+        <Preset name="preset 355" num="10"/>
+        <Preset name="preset 356" num="11"/>
+        <Preset name="preset 357" num="12"/>
+        <Preset name="preset 358" num="13"/>
+        <Preset name="preset 359" num="14"/>
+        <Preset name="preset 360" num="15"/>
+        <Preset name="preset 361" num="16"/>
+        <Preset name="preset 362" num="17"/>
+        <Preset name="preset 363" num="18"/>
+        <Preset name="preset 364" num="19"/>
+        <Preset name="preset 365" num="20"/>
+        <Preset name="preset 366" num="21"/>
+        <Preset name="preset 367" num="22"/>
+        <Preset name="preset 368" num="23"/>
+        <Preset name="preset 369" num="24"/>
+        <Preset name="preset 370" num="25"/>
+        <Preset name="preset 371" num="26"/>
+        <Preset name="preset 372" num="27"/>
+        <Preset name="preset 373" num="28"/>
+        <Preset name="preset 374" num="29"/>
+        <Preset name="preset 375" num="30"/>
+    </Bank>
+    <Bank name="2">
+        <Preset name="Bows" num="0"/>
+        <Preset name="Pizz" num="1"/>
+        <Preset name="Deep Pizz" num="2"/>
+        <Preset name="Staccatto" num="3"/>
+        <Preset name="Violins" num="4"/>
+        <Preset name="Trembling Viola" num="5"/>
+        <Preset name="String Snip" num="6"/>
+        <Preset name="Tremble Cello" num="7"/>
+        <Preset name="Quartet" num="8"/>
+        <Preset name="Fake String" num="9"/>
+        <Preset name="Divisi" num="10"/>
+        <Preset name="All Strings" num="11"/>
+    </Bank>
+    <Bank name="3">
+        <Preset name="Pianos" num="0"/>
+        <Preset name="Piano Release" num="1"/>
+        <Preset name="Short" num="2"/>
+        <Preset name="Sliced" num="3"/>
+        <Preset name="Staccato" num="4"/>
+        <Preset name="Piano Normal" num="5"/>
+        <Preset name="Harpsicord" num="6"/>
+        <Preset name="Throat Piano" num="7"/>
+        <Preset name="Uncalibrated" num="8"/>
+        <Preset name="na-02" num="9"/>
+        <Preset name="na-03" num="10"/>
+        <Preset name="na-04" num="11"/>
+    </Bank>
+    <Bank name="4">
+        <Preset name="Brass" num="0"/>
+        <Preset name="Flauta" num="1"/>
+        <Preset name="Trombone" num="2"/>
+        <Preset name="Moog Brass" num="3"/>
+        <Preset name="Phila" num="4"/>
+        <Preset name="Piper" num="5"/>
+        <Preset name="Filter" num="6"/>
+        <Preset name="Trumpet" num="7"/>
+        <Preset name="Trumpets" num="8"/>
+        <Preset name="OP1 Horns" num="9"/>
+        <Preset name="Glown" num="10"/>
+        <Preset name="Mellotron Horns" num="11"/>
+    </Bank>
+    <Bank name="5">
+        <Preset name="Reeds" num="0"/>
+        <Preset name="Melodica A" num="1"/>
+        <Preset name="Melodica B" num="2"/>
+        <Preset name="Melodica Dark" num="3"/>
+        <Preset name="Accordian" num="4"/>
+        <Preset name="Accordian Squeeze" num="5"/>
+        <Preset name="Short Reeds" num="6"/>
+        <Preset name="Digital Reed" num="7"/>
+        <Preset name="Bright LP" num="8"/>
+        <Preset name="Thicken" num="9"/>
+        <Preset name="Vibrato" num="10"/>
+        <Preset name="na" num="11"/>
+    </Bank>
+    <Bank name="6">
+        <Preset name="Pipes" num="0"/>
+        <Preset name="Prophet Organ" num="1"/>
+        <Preset name="Demon" num="2"/>
+        <Preset name="Wish" num="3"/>
+        <Preset name="na-01" num="4"/>
+        <Preset name="na-02" num="5"/>
+        <Preset name="na-03" num="6"/>
+        <Preset name="na-04" num="7"/>
+        <Preset name="na-05" num="8"/>
+        <Preset name="na-06" num="9"/>
+        <Preset name="na-07" num="10"/>
+        <Preset name="na-08" num="11"/>
+    </Bank>
+    <Bank name="7">
+        <Preset name="Mallet Bright" num="0"/>
+        <Preset name="Springy" num="1"/>
+        <Preset name="Gamma" num="2"/>
+        <Preset name="Delicate" num="3"/>
+        <Preset name="Honk" num="4"/>
+        <Preset name="Vibra" num="5"/>
+        <Preset name="Vibra Light" num="6"/>
+        <Preset name="Glock Far" num="7"/>
+        <Preset name="Glock Clear" num="8"/>
+        <Preset name="Glock Short" num="9"/>
+        <Preset name="Handbell Choir" num="10"/>
+        <Preset name="Handbell Warp" num="11"/>
+    </Bank>
+    <Bank name="8">
+        <Preset name="Mallets" num="0"/>
+        <Preset name="Bamboo Wash" num="1"/>
+        <Preset name="Simple" num="2"/>
+        <Preset name="Kalimba" num="3"/>
+        <Preset name="Dirty" num="4"/>
+        <Preset name="na-01" num="5"/>
+        <Preset name="na-02" num="6"/>
+        <Preset name="na-03" num="7"/>
+        <Preset name="na-04" num="8"/>
+        <Preset name="na-05" num="9"/>
+        <Preset name="na-06" num="10"/>
+        <Preset name="na-07" num="11"/>
+        <Preset name="na-08" num="12"/>
+    </Bank>
+    <Bank name="9">
+        <Preset name="Keys" num="0"/>
+        <Preset name="Donkey" num="1"/>
+        <Preset name="OP1" num="2"/>
+        <Preset name="Deep" num="3"/>
+        <Preset name="Glass" num="4"/>
+        <Preset name="Quick" num="5"/>
+        <Preset name="na-01" num="6"/>
+        <Preset name="na-02" num="7"/>
+        <Preset name="na-03" num="8"/>
+        <Preset name="na-04" num="9"/>
+        <Preset name="na-05" num="10"/>
+        <Preset name="na-06" num="11"/>
+        <Preset name="na-07" num="12"/>
+    </Bank>
+    <Bank name="10">
+        <Preset name="Light Textures" num="0"/>
+        <Preset name="Rink" num="1"/>
+        <Preset name="Drawbar" num="2"/>
+        <Preset name="Reversal" num="3"/>
+        <Preset name="Acoustic Blaze" num="4"/>
+        <Preset name="Moog" num="5"/>
+        <Preset name="preset 249" num="6"/>
+        <Preset name="Noise" num="7"/>
+        <Preset name="na-01" num="8"/>
+        <Preset name="na-02" num="9"/>
+        <Preset name="na-03" num="10"/>
+        <Preset name="na-04" num="11"/>
+        <Preset name="na-05" num="12"/>
+    </Bank>
+    <Bank name="11">
+        <Preset name="Moving Synthesizers" num="0"/>
+        <Preset name="Geese" num="1"/>
+        <Preset name="Glam" num="2"/>
+        <Preset name="Rise" num="3"/>
+        <Preset name="Gloom" num="4"/>
+        <Preset name="Plick" num="5"/>
+        <Preset name="Rip" num="6"/>
+        <Preset name="Rope" num="7"/>
+        <Preset name="Bug" num="8"/>
+        <Preset name="Awe" num="9"/>
+        <Preset name="Blue" num="10"/>
+        <Preset name="preset 242" num="11"/>
+        <Preset name="preset 243" num="12"/>
+    </Bank>
+    <Bank name="12">
+        <Preset name="Bold Synthesizers" num="0"/>
+        <Preset name="Saw" num="1"/>
+        <Preset name="Klutz" num="2"/>
+        <Preset name="Fifth" num="3"/>
+        <Preset name="Lower" num="4"/>
+        <Preset name="Charlie" num="5"/>
+        <Preset name="Gaul" num="6"/>
+        <Preset name="preset 226" num="7"/>
+        <Preset name="Katz" num="8"/>
+        <Preset name="na-01" num="9"/>
+        <Preset name="na-02" num="10"/>
+        <Preset name="na-03" num="11"/>
+        <Preset name="na-04" num="12"/>
+    </Bank>
+    <Bank name="13">
+        <Preset name="Vintage" num="0"/>
+        <Preset name="Binky" num="1"/>
+        <Preset name="Roll" num="2"/>
+        <Preset name="Flut" num="3"/>
+        <Preset name="One Ear" num="4"/>
+        <Preset name="Arcade" num="5"/>
+        <Preset name="Distance" num="6"/>
+        <Preset name="Swall" num="7"/>
+        <Preset name="Story" num="8"/>
+        <Preset name="na-01" num="9"/>
+        <Preset name="na-02" num="10"/>
+        <Preset name="na-03" num="11"/>
+        <Preset name="na-04" num="12"/>
+    </Bank>
+    <Bank name="14">
+        <Preset name="Chips" num="0"/>
+        <Preset name="na-01" num="1"/>
+        <Preset name="na-02" num="2"/>
+        <Preset name="na-03" num="3"/>
+        <Preset name="na-04" num="4"/>
+        <Preset name="na-05" num="5"/>
+        <Preset name="na-06" num="6"/>
+        <Preset name="na-07" num="7"/>
+        <Preset name="na-08" num="8"/>
+        <Preset name="na-09" num="9"/>
+        <Preset name="na-10" num="10"/>
+        <Preset name="na-11" num="11"/>
+        <Preset name="preset 207" num="12"/>
+    </Bank>
+    <Bank name="15">
+        <Preset name="Voices" num="0"/>
+        <Preset name="Margot" num="1"/>
+        <Preset name="Goo" num="2"/>
+        <Preset name="Ghoul" num="3"/>
+        <Preset name="Dead" num="4"/>
+        <Preset name="Pops" num="5"/>
+        <Preset name="Slide" num="6"/>
+        <Preset name="Game Over" num="7"/>
+        <Preset name="Glory" num="8"/>
+        <Preset name="Rag" num="9"/>
+        <Preset name="Ghost" num="10"/>
+        <Preset name="na-01" num="11"/>
+        <Preset name="na-02" num="12"/>
+    </Bank>
+    <Bank name="16">
+        <Preset name="Short" num="0"/>
+        <Preset name="Castle" num="1"/>
+        <Preset name="Softer" num="2"/>
+        <Preset name="Softest" num="3"/>
+        <Preset name="Simple" num="4"/>
+    </Bank>
+    <Bank name="17">
+        <Preset name="Pluck" num="0"/>
+        <Preset name="Harp" num="1"/>
+        <Preset name="String" num="2"/>
+        <Preset name="Bottle" num="3"/>
+        <Preset name="preset 171" num="4"/>
+        <Preset name="na-01" num="5"/>
+        <Preset name="na-02" num="6"/>
+        <Preset name="na-03" num="7"/>
+        <Preset name="na-04" num="8"/>
+        <Preset name="na-05" num="9"/>
+        <Preset name="na-06" num="10"/>
+        <Preset name="na-07" num="11"/>
+        <Preset name="harpen" num="12"/>
+    </Bank>
+    <Bank name="18">
+        <Preset name="Hard" num="0"/>
+        <Preset name="na-01" num="1"/>
+        <Preset name="na-02" num="2"/>
+        <Preset name="na-03" num="3"/>
+        <Preset name="na-04" num="4"/>
+        <Preset name="na-05" num="5"/>
+        <Preset name="na-06" num="6"/>
+        <Preset name="na-07" num="7"/>
+        <Preset name="na-08" num="8"/>
+        <Preset name="na-09" num="9"/>
+        <Preset name="na-10" num="10"/>
+        <Preset name="na-11" num="11"/>
+        <Preset name="na-12" num="12"/>
+    </Bank>
+    <Bank name="19">
+        <Preset name="Guitar" num="0"/>
+        <Preset name="Cable" num="1"/>
+        <Preset name="Telecaster" num="2"/>
+        <Preset name="Telecaster Swarm" num="3"/>
+        <Preset name="Broken Acoustic" num="4"/>
+        <Preset name="Steel" num="5"/>
+        <Preset name="Hohner" num="6"/>
+        <Preset name="Acoustic" num="7"/>
+        <Preset name="Echo" num="8"/>
+        <Preset name="Slip" num="9"/>
+        <Preset name="na-01" num="10"/>
+        <Preset name="na-02" num="11"/>
+        <Preset name="na-03" num="12"/>
+    </Bank>
+    <Bank name="20">
+        <Preset name="Organic Perc" num="0"/>
+        <Preset name="na-01" num="1"/>
+        <Preset name="na-02" num="2"/>
+        <Preset name="na-03" num="3"/>
+        <Preset name="na-04" num="4"/>
+        <Preset name="na-05" num="5"/>
+        <Preset name="na-06" num="6"/>
+        <Preset name="na-07" num="7"/>
+        <Preset name="na-08" num="8"/>
+        <Preset name="na-09" num="9"/>
+        <Preset name="na-10" num="10"/>
+        <Preset name="na-11" num="11"/>
+        <Preset name="na-12" num="12"/>
+    </Bank>
+    <Bank name="21">
+        <Preset name="Digital Percussion" num="0"/>
+        <Preset name="preset 120" num="1"/>
+        <Preset name="na-01" num="2"/>
+        <Preset name="na-02" num="3"/>
+        <Preset name="na-03" num="4"/>
+        <Preset name="na-04" num="5"/>
+        <Preset name="na-05" num="6"/>
+        <Preset name="na-06" num="7"/>
+        <Preset name="na-07" num="8"/>
+        <Preset name="na-08" num="9"/>
+        <Preset name="na-09" num="10"/>
+        <Preset name="na-10" num="11"/>
+        <Preset name="na-11" num="12"/>
+    </Bank>
+    <Bank name="22">
+        <Preset name="Tactillian" num="0"/>
+        <Preset name="Tactillian-01" num="1"/>
+        <Preset name="Tactillian-02" num="2"/>
+        <Preset name="Tactillian-03" num="3"/>
+        <Preset name="Tactillian-04" num="4"/>
+        <Preset name="Tactillian-05" num="5"/>
+        <Preset name="Tactillian-06" num="6"/>
+        <Preset name="Tactillian-07" num="7"/>
+        <Preset name="Tactillian-08" num="8"/>
+        <Preset name="Tactillian-09" num="9"/>
+        <Preset name="Tactillian-10" num="10"/>
+        <Preset name="Tactillian-11" num="11"/>
+        <Preset name="Tactillian-12" num="12"/>
+        <Preset name="Tactillian-13" num="13"/>
+        <Preset name="Tactillian-14" num="14"/>
+        <Preset name="Tactillian-15" num="15"/>
+        <Preset name="Tactillian-16" num="16"/>
+        <Preset name="Tactillian-17" num="17"/>
+        <Preset name="Tactillian-18" num="18"/>
+        <Preset name="Tactillian-19" num="19"/>
+        <Preset name="Tactillian-20" num="20"/>
+    </Bank>
+    <Bank name="23">
+        <Preset name="Bananas" num="0"/>
+        <Preset name="Cheer" num="1"/>
+        <Preset name="Slope" num="2"/>
+        <Preset name="Horror" num="3"/>
+        <Preset name="Phantom" num="4"/>
+        <Preset name="Delta" num="5"/>
+        <Preset name="na-01" num="6"/>
+        <Preset name="na-02" num="7"/>
+        <Preset name="na-03" num="8"/>
+        <Preset name="na-04" num="9"/>
+        <Preset name="na-05" num="10"/>
+        <Preset name="na-06" num="11"/>
+    </Bank>
+    <Bank name="24">
+        <Preset name="Hydra" num="0"/>
+        <Preset name="Optigon" num="1"/>
+        <Preset name="Hydra-01" num="2"/>
+        <Preset name="Hydra-02" num="3"/>
+        <Preset name="Hydra-03" num="4"/>
+        <Preset name="Hydra-04" num="5"/>
+        <Preset name="Hydra-05" num="6"/>
+        <Preset name="Hydra-06" num="7"/>
+        <Preset name="Hydra-07" num="8"/>
+        <Preset name="Hydra-08" num="9"/>
+        <Preset name="Hydra-09" num="10"/>
+        <Preset name="Hydra-10" num="11"/>
+        <Preset name="Hydra-11" num="12"/>
+    </Bank>
+    <Bank name="25">
+        <Preset name="Manipulated" num="0"/>
+        <Preset name="Lightbox" num="1"/>
+        <Preset name="KB" num="2"/>
+        <Preset name="Cloud" num="3"/>
+        <Preset name="Digital Divide" num="4"/>
+        <Preset name="Addition" num="5"/>
+        <Preset name="Rumble" num="6"/>
+        <Preset name="Angel" num="7"/>
+        <Preset name="Swamp" num="8"/>
+        <Preset name="Cyborg" num="9"/>
+        <Preset name="Sharp" num="10"/>
+        <Preset name="preset 75" num="11"/>
+        <Preset name="preset 76" num="12"/>
+    </Bank>
+    <Bank name="26">
+        <Preset name="Scary" num="0"/>
+    </Bank>
+    <Bank name="27">
+        <Preset name="NES" num="0"/>
+        <Preset name="NES-02" num="1"/>
+        <Preset name="NES-03" num="2"/>
+        <Preset name="NES-04" num="3"/>
+        <Preset name="NES-05" num="4"/>
+        <Preset name="NES-06" num="5"/>
+        <Preset name="NES-07" num="6"/>
+        <Preset name="NES-08" num="7"/>
+        <Preset name="NES-09" num="8"/>
+        <Preset name="NES-10" num="9"/>
+        <Preset name="NES-11" num="10"/>
+        <Preset name="NES-12" num="11"/>
+        <Preset name="NES-13" num="12"/>
+        <Preset name="NES-14" num="13"/>
+        <Preset name="NES-15" num="14"/>
+        <Preset name="NES-16" num="15"/>
+        <Preset name="NES-17" num="16"/>
+        <Preset name="NES-18" num="17"/>
+        <Preset name="NES-19" num="18"/>
+        <Preset name="NES-20" num="19"/>
+        <Preset name="NES-21" num="20"/>
+        <Preset name="NES-22" num="21"/>
+        <Preset name="NES-23" num="22"/>
+        <Preset name="NES-24" num="23"/>
+        <Preset name="NES-25" num="24"/>
+        <Preset name="NES-26" num="25"/>
+        <Preset name="NES-27" num="26"/>
+        <Preset name="NES-28" num="27"/>
+        <Preset name="NES-29" num="28"/>
+        <Preset name="NES-30" num="29"/>
+        <Preset name="NES-31" num="30"/>
+        <Preset name="NES-32" num="31"/>
+        <Preset name="NES-33" num="32"/>
+        <Preset name="NES-34" num="33"/>
+        <Preset name="NES-35" num="34"/>
+        <Preset name="NES-36" num="35"/>
+        <Preset name="NES-37" num="36"/>
+    </Bank>
+    <Bank name="99">
+        <Preset name="Algo Range" num="0"/>
+        <Preset name="Velocity Test" num="1"/>
+    </Bank>
+</Soundfont>

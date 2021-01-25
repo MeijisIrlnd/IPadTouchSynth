@@ -73,6 +73,86 @@
 			isa = PBXBuildFile;
 			fileRef = EEC716AEBCDA85A0F532F375;
 		};
+		4A50EAC3F4ECB5CC23E253B9 = {
+			isa = PBXBuildFile;
+			fileRef = 84D70C863E63AA8BB0940249;
+		};
+		A45F0A5736E9BB4258EC5F05 = {
+			isa = PBXBuildFile;
+			fileRef = 49C20807A6866ABE57F58650;
+		};
+		A0D4102011C558D6755168FC = {
+			isa = PBXBuildFile;
+			fileRef = 0A758B0809CDBF40735B306E;
+		};
+		98B4ACC249A1E7797D626D51 = {
+			isa = PBXBuildFile;
+			fileRef = C1FF60FB98D6BAAAE4EEF901;
+		};
+		2AF99E05E0F34A9F82726B4B = {
+			isa = PBXBuildFile;
+			fileRef = 52566A5FEF042EA63C3CCC8C;
+		};
+		208C74B256AFF8E443833A87 = {
+			isa = PBXBuildFile;
+			fileRef = EB21DEF695C8988409F364F2;
+		};
+		C01C96A7C08C105E7B927646 = {
+			isa = PBXBuildFile;
+			fileRef = C7812F3B9A08D2F1C04C0781;
+		};
+		68BADA0CEF29F09BB4EC6C2C = {
+			isa = PBXBuildFile;
+			fileRef = AFB1994BEDFE4C39DE9F607E;
+		};
+		7DEA3481AA0E5C1FB979FCEA = {
+			isa = PBXBuildFile;
+			fileRef = 27F15C6B0B7DCADCFAFF38DB;
+		};
+		201744553DB4DB6E8D2C3AB6 = {
+			isa = PBXBuildFile;
+			fileRef = 917C17BA873FB463B313394C;
+		};
+		16BE696EFFBD3C218E0376B4 = {
+			isa = PBXBuildFile;
+			fileRef = A3C0ADB2A477770EED017ED8;
+		};
+		7862DF9A10B5CC1CD40EDD80 = {
+			isa = PBXBuildFile;
+			fileRef = B457EA6C65EF3D42EAC874F5;
+		};
+		6C668D0F6CD9E668EA88DEFD = {
+			isa = PBXBuildFile;
+			fileRef = 07B3CFE58BA5C9B0520B57AF;
+		};
+		99A6AC6BDA9E50C0E6842213 = {
+			isa = PBXBuildFile;
+			fileRef = 911F1D726C2C74FCBF8AF1A4;
+		};
+		41F5BF3071777C7E275AF8BC = {
+			isa = PBXBuildFile;
+			fileRef = 8E84685BF9209337CFE1CDE7;
+		};
+		127436BB35138DB75654C6AE = {
+			isa = PBXBuildFile;
+			fileRef = BD97DA87CAAFCE5D94B9DE80;
+		};
+		6A2C0287D8E1AFE7F327635D = {
+			isa = PBXBuildFile;
+			fileRef = 72ED5235D95A3613EE67D11D;
+		};
+		3DD1E886BCAD5C93EAFEAC47 = {
+			isa = PBXBuildFile;
+			fileRef = D77C0230B48CC41E31531E2F;
+		};
+		62E4ADD032CC9607732BADF4 = {
+			isa = PBXBuildFile;
+			fileRef = 0BFE4181AC6351EA9D3D3E73;
+		};
+		50EC4F00B039FD9E8FB405F0 = {
+			isa = PBXBuildFile;
+			fileRef = 5F49E41A2CF93AAE1C0CE9CB;
+		};
 		3B55EC180C10A5E81A13D8CD = {
 			isa = PBXBuildFile;
 			fileRef = 4AFDF596C46C0CAAD9C2B20D;
@@ -80,6 +160,10 @@
 		62BFA64462B8356D8EA52283 = {
 			isa = PBXBuildFile;
 			fileRef = 350C65379AD03E6374F34F59;
+		};
+		C354819839DF0A1AB0DFBFA7 = {
+			isa = PBXBuildFile;
+			fileRef = 24AF1A5155848B34E04A7714;
 		};
 		918463C1B527E012EC997EF1 = {
 			isa = PBXBuildFile;
@@ -132,11 +216,46 @@
 			path = "~/JUCE/modules/juce_gui_extra";
 			sourceTree = "<absolute>";
 		};
+		064745FA23D66207E638226A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = mod.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/mod.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		07B3CFE58BA5C9B0520B57AF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_rev.c";
+			path = "../../Source/Fluidlite/src/fluid_rev.c";
+			sourceTree = "SOURCE_ROOT";
+		};
 		08C31029E121733E71B293E4 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_graphics.mm";
 			path = "../../JuceLibraryCode/include_juce_graphics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		09E413AD8026D430495C645E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_tuning.h";
+			path = "../../Source/Fluidlite/src/fluid_tuning.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0A758B0809CDBF40735B306E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_chorus.c";
+			path = "../../Source/Fluidlite/src/fluid_chorus.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0BFE4181AC6351EA9D3D3E73 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = fluidsynth.c;
+			path = ../../Source/Fluidlite/src/fluidsynth.c;
 			sourceTree = "SOURCE_ROOT";
 		};
 		12A1A466BDB41ACDCAC5E2CD = {
@@ -146,6 +265,27 @@
 			path = IOSSynth/Images.xcassets;
 			sourceTree = "SOURCE_ROOT";
 		};
+		14E5A0B86746B192313D8A8D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_hash.h";
+			path = "../../Source/Fluidlite/src/fluid_hash.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1639360578E353742AA3AD60 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ParamControls.h;
+			path = ../../Source/Components/ParamControls.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		177C38C25C29BABA58EBDA1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = version.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/version.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		192690120554328FE2A26988 = {
 			isa = PBXFileReference;
 			lastKnownFileType = text.plist.xml;
@@ -153,11 +293,11 @@
 			path = "Info-App.plist";
 			sourceTree = "SOURCE_ROOT";
 		};
-		1E0B326A3BC9D0351686234C = {
+		1A862FD5BDCD4A32E6383ECA = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
-			name = WavetableVoice.h;
-			path = ../../Source/AudioSources/WavetableVoice.h;
+			name = "fluid_sfont.h";
+			path = "../../Source/Fluidlite/src/fluid_sfont.h";
 			sourceTree = "SOURCE_ROOT";
 		};
 		1E28B47EDF645FD0C4EB6FF2 = {
@@ -173,6 +313,13 @@
 			name = "juce_data_structures";
 			path = "~/JUCE/modules/juce_data_structures";
 			sourceTree = "<absolute>";
+		};
+		24AF1A5155848B34E04A7714 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BinaryData.cpp;
+			path = ../../JuceLibraryCode/BinaryData.cpp;
+			sourceTree = "SOURCE_ROOT";
 		};
 		25C64AC1BBC1B0B2C8E28254 = {
 			isa = PBXFileReference;
@@ -195,12 +342,40 @@
 			path = "~/JUCE/modules/juce_events";
 			sourceTree = "<absolute>";
 		};
+		27F15C6B0B7DCADCFAFF38DB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_hash.c";
+			path = "../../Source/Fluidlite/src/fluid_hash.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		286A5B2121143F6346132CFC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_conv.h";
+			path = "../../Source/Fluidlite/src/fluid_conv.h";
+			sourceTree = "SOURCE_ROOT";
+		};
 		29DB7F277ECC3512C5926F6A = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
 			name = CoreImage.framework;
 			path = System/Library/Frameworks/CoreImage.framework;
 			sourceTree = SDKROOT;
+		};
+		2DADB8955DAE94CA51847FC4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_sys.h";
+			path = "../../Source/Fluidlite/src/fluid_sys.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		338E6B104F5B7175892170D4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ramsfont.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/ramsfont.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		34C9CA5B33EF4730E05132A5 = {
 			isa = PBXFileReference;
@@ -214,6 +389,20 @@
 			lastKnownFileType = sourcecode.cpp.cpp;
 			name = MainComponent.cpp;
 			path = ../../Source/MainComponent.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		39C2D235FF256FC66F7043C4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = gen.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/gen.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		3BD943590B858462AE73F1C5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_defsfont.h";
+			path = "../../Source/Fluidlite/src/fluid_defsfont.h";
 			sourceTree = "SOURCE_ROOT";
 		};
 		3C7B671DC89C39E62452B652 = {
@@ -237,12 +426,26 @@
 			path = "../../JuceLibraryCode/include_juce_audio_processors.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		3FCA34770F3071FE23022F37 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_chorus.h";
+			path = "../../Source/Fluidlite/src/fluid_chorus.h";
+			sourceTree = "SOURCE_ROOT";
+		};
 		49A05A126ADD5513616B6F94 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
 			name = UIKit.framework;
 			path = System/Library/Frameworks/UIKit.framework;
 			sourceTree = SDKROOT;
+		};
+		49C20807A6866ABE57F58650 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_chan.c";
+			path = "../../Source/Fluidlite/src/fluid_chan.c";
+			sourceTree = "SOURCE_ROOT";
 		};
 		49F53CADA78732D2E77C6E7B = {
 			isa = PBXFileReference;
@@ -265,12 +468,47 @@
 			path = "~/JUCE/modules/juce_audio_devices";
 			sourceTree = "<absolute>";
 		};
+		4C53665EAD727114E6FBCFC4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_mod.h";
+			path = "../../Source/Fluidlite/src/fluid_mod.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4C5CD11D47E99EAB8CB8A9B6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = settings.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/settings.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		4D4D644EE4C24C17390FB715 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = types.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/types.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		51164E50685C7E1289F4D306 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
 			name = Foundation.framework;
 			path = System/Library/Frameworks/Foundation.framework;
 			sourceTree = SDKROOT;
+		};
+		52566A5FEF042EA63C3CCC8C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_defsfont.c";
+			path = "../../Source/Fluidlite/src/fluid_defsfont.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		54A60614780FDFEDA7CC3705 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = synth.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/synth.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		574B81C0358FD56169E259F5 = {
 			isa = PBXFileReference;
@@ -279,11 +517,18 @@
 			path = "../../JuceLibraryCode/include_juce_gui_extra.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		61BF3A944E6D98A16136AF82 = {
+		594056D860C82B6EA3B9F074 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
-			name = WavetableSound.h;
-			path = ../../Source/AudioSources/WavetableSound.h;
+			name = "fluid_chan.h";
+			path = "../../Source/Fluidlite/src/fluid_chan.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5F49E41A2CF93AAE1C0CE9CB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SoundfontAudioSource.cpp;
+			path = ../../Source/AudioSources/SoundfontAudioSource.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		664A1493F09F56FDBCE40AB5 = {
@@ -293,12 +538,26 @@
 			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		6661BE1D80015A759617FA0F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_phase.h";
+			path = "../../Source/Fluidlite/src/fluid_phase.h";
+			sourceTree = "SOURCE_ROOT";
+		};
 		6873BD34A6DCB88DA85C5D49 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
 			name = CoreText.framework;
 			path = System/Library/Frameworks/CoreText.framework;
 			sourceTree = SDKROOT;
+		};
+		68C07D80B16B6CCD91A3FD5C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = sfont.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/sfont.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		6C58A1CC8083F686A4E31DBE = {
 			isa = PBXFileReference;
@@ -314,6 +573,13 @@
 			path = "../../JuceLibraryCode/include_juce_audio_devices.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		6FEA32F1DC61596B655348DE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ProgramSelector.h;
+			path = ../../Source/Components/ProgramSelector.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		701B6AD38E995A53F6868DDB = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -326,6 +592,20 @@
 			lastKnownFileType = sourcecode.c.h;
 			name = JuceHeader.h;
 			path = ../../JuceLibraryCode/JuceHeader.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		72ED5235D95A3613EE67D11D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_tuning.c";
+			path = "../../Source/Fluidlite/src/fluid_tuning.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		750896A7C5AC8A7540E13773 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_config.h";
+			path = "../../Source/Fluidlite/src/fluid_config.h";
 			sourceTree = "SOURCE_ROOT";
 		};
 		788CC042E4ECD4AE4F452FC3 = {
@@ -349,12 +629,26 @@
 			path = System/Library/Frameworks/CoreServices.framework;
 			sourceTree = SDKROOT;
 		};
+		84D70C863E63AA8BB0940249 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = tinyxml2.cpp;
+			path = ../../Source/tinyxml2/tinyxml2.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		8698C4E140772C3F2E91B2B9 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
 			name = CoreGraphics.framework;
 			path = System/Library/Frameworks/CoreGraphics.framework;
 			sourceTree = SDKROOT;
+		};
+		8B5268D9F706E73CB801C179 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BinaryData.h;
+			path = ../../JuceLibraryCode/BinaryData.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		8B5E89F11CEAE771E95B279F = {
 			isa = PBXFileReference;
@@ -363,6 +657,20 @@
 			path = System/Library/Frameworks/WebKit.framework;
 			sourceTree = SDKROOT;
 		};
+		8E84685BF9209337CFE1CDE7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_synth.c";
+			path = "../../Source/Fluidlite/src/fluid_synth.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		911F1D726C2C74FCBF8AF1A4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_settings.c";
+			path = "../../Source/Fluidlite/src/fluid_settings.c";
+			sourceTree = "SOURCE_ROOT";
+		};
 		9131303BF9A19DD46269FC77 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -370,19 +678,19 @@
 			path = System/Library/Frameworks/Accelerate.framework;
 			sourceTree = SDKROOT;
 		};
+		917C17BA873FB463B313394C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_list.c";
+			path = "../../Source/Fluidlite/src/fluid_list.c";
+			sourceTree = "SOURCE_ROOT";
+		};
 		98304C3B98E40C3A0760BA45 = {
 			isa = PBXFileReference;
 			explicitFileType = wrapper.application;
 			includeInIndex = 0;
 			path = NewProject.app;
 			sourceTree = "BUILT_PRODUCTS_DIR";
-		};
-		994DE5C53647FEB44C647FE5 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = SynthAudioSource.h;
-			path = ../../Source/AudioSources/SynthAudioSource.h;
-			sourceTree = "SOURCE_ROOT";
 		};
 		9BF8AD748B0FC6AF9A87F489 = {
 			isa = PBXFileReference;
@@ -398,11 +706,39 @@
 			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		A7E058A29506AC4373477707 = {
+		A3C0ADB2A477770EED017ED8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_mod.c";
+			path = "../../Source/Fluidlite/src/fluid_mod.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A5A9A593392898A200841356 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
-			name = SineWaveVoice.h;
-			path = ../../Source/AudioSources/SineWaveVoice.h;
+			name = "fluid_rev.h";
+			path = "../../Source/Fluidlite/src/fluid_rev.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A8FEAA392A1ED350A09AF59C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_synth.h";
+			path = "../../Source/Fluidlite/src/fluid_synth.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AF4E65866D2400C1B1325CEF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_midi.h";
+			path = "../../Source/Fluidlite/src/fluid_midi.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AFB1994BEDFE4C39DE9F607E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_gen.c";
+			path = "../../Source/Fluidlite/src/fluid_gen.c";
 			sourceTree = "SOURCE_ROOT";
 		};
 		B020C36A61631C54C1455B61 = {
@@ -411,6 +747,41 @@
 			name = CoreAudio.framework;
 			path = System/Library/Frameworks/CoreAudio.framework;
 			sourceTree = SDKROOT;
+		};
+		B114309B4CCF782555736F5C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = fluidlite.h;
+			path = ../../Source/Fluidlite/include/fluidlite.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B28199F658058994BE63743E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ADSRControls.h;
+			path = ../../Source/Components/ADSRControls.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B457EA6C65EF3D42EAC874F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_ramsfont.c";
+			path = "../../Source/Fluidlite/src/fluid_ramsfont.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B477BF225DD081ED7A27F17E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = tinyxml2.h;
+			path = ../../Source/tinyxml2/tinyxml2.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B6D233243B8541223D3C1813 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_list.h";
+			path = "../../Source/Fluidlite/src/fluid_list.h";
+			sourceTree = "SOURCE_ROOT";
 		};
 		B76BB6BD987C07EA131173D5 = {
 			isa = PBXFileReference;
@@ -426,6 +797,13 @@
 			path = ../../Source/MainComponent.h;
 			sourceTree = "SOURCE_ROOT";
 		};
+		BD97DA87CAAFCE5D94B9DE80 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_sys.c";
+			path = "../../Source/Fluidlite/src/fluid_sys.c";
+			sourceTree = "SOURCE_ROOT";
+		};
 		BDC5B07327FF5791651B5040 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -433,11 +811,18 @@
 			path = System/Library/Frameworks/AudioToolbox.framework;
 			sourceTree = SDKROOT;
 		};
-		BF5F87574F3B82A713B8BECF = {
+		BFAF4B2E4A383CFBF5BF508B = {
 			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = Wavetable.h;
-			path = ../../Source/AudioSources/Wavetable.h;
+			lastKnownFileType = file.xml;
+			name = SoundfontManifest.xml;
+			path = ../../Resources/SoundfontManifest.xml;
+			sourceTree = "SOURCE_ROOT";
+		};
+		C1FF60FB98D6BAAAE4EEF901 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_conv.c";
+			path = "../../Source/Fluidlite/src/fluid_conv.c";
 			sourceTree = "SOURCE_ROOT";
 		};
 		C453288DE7D8124EAADC5677 = {
@@ -446,6 +831,69 @@
 			name = "juce_audio_basics";
 			path = "~/JUCE/modules/juce_audio_basics";
 			sourceTree = "<absolute>";
+		};
+		C45B8EC8D6DBFA065C32357A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_voice.h";
+			path = "../../Source/Fluidlite/src/fluid_voice.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C694BA038DE93D0FB434DB7E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_settings.h";
+			path = "../../Source/Fluidlite/src/fluid_settings.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C7812F3B9A08D2F1C04C0781 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_dsp_simple.c";
+			path = "../../Source/Fluidlite/src/fluid_dsp_simple.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CD12988221FFE332B6BD994B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_gen.h";
+			path = "../../Source/Fluidlite/src/fluid_gen.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D77C0230B48CC41E31531E2F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_voice.c";
+			path = "../../Source/Fluidlite/src/fluid_voice.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E04451A2C1E49883109264CE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = misc.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/misc.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		E9893F77965FCDB01F6AE633 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SoundfontAudioSource.h;
+			path = ../../Source/AudioSources/SoundfontAudioSource.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		EB21DEF695C8988409F364F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "fluid_dsp_float.c";
+			path = "../../Source/Fluidlite/src/fluid_dsp_float.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EB574CA4CB4FAC5723F14E6A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = voice.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/voice.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		EEC716AEBCDA85A0F532F375 = {
 			isa = PBXFileReference;
@@ -475,6 +923,13 @@
 			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		F24BDCFE870727FB3C0E55C6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = log.h;
+			path = ../../Source/Fluidlite/include/fluidsynth/log.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		F87B061039919BE0C69F2858 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
@@ -482,14 +937,123 @@
 			path = "~/JUCE/modules/juce_audio_formats";
 			sourceTree = "<absolute>";
 		};
+		F9491842F558E15F74694DE5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluid_ramsfont.h";
+			path = "../../Source/Fluidlite/src/fluid_ramsfont.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FBE5DEB68DD38F18C2CF737C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fluidsynth_priv.h";
+			path = "../../Source/Fluidlite/src/fluidsynth_priv.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BFA0D9895C919DF95C8465DD = {
+			isa = PBXGroup;
+			children = (
+				BFAF4B2E4A383CFBF5BF508B,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C45AA22F7C061FDAE35ECE75 = {
+			isa = PBXGroup;
+			children = (
+				84D70C863E63AA8BB0940249,
+				B477BF225DD081ED7A27F17E,
+			);
+			name = tinyxml2;
+			sourceTree = "<group>";
+		};
+		596A3C6477B054AB4660A25B = {
+			isa = PBXGroup;
+			children = (
+				39C2D235FF256FC66F7043C4,
+				F24BDCFE870727FB3C0E55C6,
+				E04451A2C1E49883109264CE,
+				064745FA23D66207E638226A,
+				338E6B104F5B7175892170D4,
+				4C5CD11D47E99EAB8CB8A9B6,
+				68C07D80B16B6CCD91A3FD5C,
+				54A60614780FDFEDA7CC3705,
+				4D4D644EE4C24C17390FB715,
+				177C38C25C29BABA58EBDA1B,
+				EB574CA4CB4FAC5723F14E6A,
+			);
+			name = fluidsynth;
+			sourceTree = "<group>";
+		};
+		8DA130ADB569599A4705C8FD = {
+			isa = PBXGroup;
+			children = (
+				596A3C6477B054AB4660A25B,
+				B114309B4CCF782555736F5C,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		927612986A082B94FBE764D9 = {
+			isa = PBXGroup;
+			children = (
+				49C20807A6866ABE57F58650,
+				594056D860C82B6EA3B9F074,
+				0A758B0809CDBF40735B306E,
+				3FCA34770F3071FE23022F37,
+				750896A7C5AC8A7540E13773,
+				C1FF60FB98D6BAAAE4EEF901,
+				286A5B2121143F6346132CFC,
+				52566A5FEF042EA63C3CCC8C,
+				3BD943590B858462AE73F1C5,
+				EB21DEF695C8988409F364F2,
+				C7812F3B9A08D2F1C04C0781,
+				AFB1994BEDFE4C39DE9F607E,
+				CD12988221FFE332B6BD994B,
+				27F15C6B0B7DCADCFAFF38DB,
+				14E5A0B86746B192313D8A8D,
+				917C17BA873FB463B313394C,
+				B6D233243B8541223D3C1813,
+				AF4E65866D2400C1B1325CEF,
+				A3C0ADB2A477770EED017ED8,
+				4C53665EAD727114E6FBCFC4,
+				6661BE1D80015A759617FA0F,
+				B457EA6C65EF3D42EAC874F5,
+				F9491842F558E15F74694DE5,
+				07B3CFE58BA5C9B0520B57AF,
+				A5A9A593392898A200841356,
+				911F1D726C2C74FCBF8AF1A4,
+				C694BA038DE93D0FB434DB7E,
+				1A862FD5BDCD4A32E6383ECA,
+				8E84685BF9209337CFE1CDE7,
+				A8FEAA392A1ED350A09AF59C,
+				BD97DA87CAAFCE5D94B9DE80,
+				2DADB8955DAE94CA51847FC4,
+				72ED5235D95A3613EE67D11D,
+				09E413AD8026D430495C645E,
+				D77C0230B48CC41E31531E2F,
+				C45B8EC8D6DBFA065C32357A,
+				0BFE4181AC6351EA9D3D3E73,
+				FBE5DEB68DD38F18C2CF737C,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		D74AD53771CB1935215F3450 = {
+			isa = PBXGroup;
+			children = (
+				8DA130ADB569599A4705C8FD,
+				927612986A082B94FBE764D9,
+			);
+			name = Fluidlite;
+			sourceTree = "<group>";
+		};
 		1561165105219866E730FAF5 = {
 			isa = PBXGroup;
 			children = (
-				A7E058A29506AC4373477707,
-				994DE5C53647FEB44C647FE5,
-				BF5F87574F3B82A713B8BECF,
-				61BF3A944E6D98A16136AF82,
-				1E0B326A3BC9D0351686234C,
+				5F49E41A2CF93AAE1C0CE9CB,
+				E9893F77965FCDB01F6AE633,
 			);
 			name = AudioSources;
 			sourceTree = "<group>";
@@ -497,6 +1061,9 @@
 		FD0D79CF51CDF9FA5B44B264 = {
 			isa = PBXGroup;
 			children = (
+				B28199F658058994BE63743E,
+				1639360578E353742AA3AD60,
+				6FEA32F1DC61596B655348DE,
 				788CC042E4ECD4AE4F452FC3,
 				1E28B47EDF645FD0C4EB6FF2,
 			);
@@ -506,6 +1073,8 @@
 		31E8A4950E506945868A6E78 = {
 			isa = PBXGroup;
 			children = (
+				C45AA22F7C061FDAE35ECE75,
+				D74AD53771CB1935215F3450,
 				1561165105219866E730FAF5,
 				FD0D79CF51CDF9FA5B44B264,
 				4AFDF596C46C0CAAD9C2B20D,
@@ -518,6 +1087,7 @@
 		2ECE6ECDA27B4CE5BEA5572A = {
 			isa = PBXGroup;
 			children = (
+				BFA0D9895C919DF95C8465DD,
 				31E8A4950E506945868A6E78,
 			);
 			name = IOSSynth;
@@ -544,6 +1114,8 @@
 		571A7E00F75FCEEDB21259BA = {
 			isa = PBXGroup;
 			children = (
+				24AF1A5155848B34E04A7714,
+				8B5268D9F706E73CB801C179,
 				A1F09A5733C2DF1C53B24CFE,
 				6EDE53C60EEF41C0A6BEA99D,
 				664A1493F09F56FDBCE40AB5,
@@ -875,8 +1447,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A50EAC3F4ECB5CC23E253B9,
+				A45F0A5736E9BB4258EC5F05,
+				A0D4102011C558D6755168FC,
+				98B4ACC249A1E7797D626D51,
+				2AF99E05E0F34A9F82726B4B,
+				208C74B256AFF8E443833A87,
+				C01C96A7C08C105E7B927646,
+				68BADA0CEF29F09BB4EC6C2C,
+				7DEA3481AA0E5C1FB979FCEA,
+				201744553DB4DB6E8D2C3AB6,
+				16BE696EFFBD3C218E0376B4,
+				7862DF9A10B5CC1CD40EDD80,
+				6C668D0F6CD9E668EA88DEFD,
+				99A6AC6BDA9E50C0E6842213,
+				41F5BF3071777C7E275AF8BC,
+				127436BB35138DB75654C6AE,
+				6A2C0287D8E1AFE7F327635D,
+				3DD1E886BCAD5C93EAFEAC47,
+				62E4ADD032CC9607732BADF4,
+				50EC4F00B039FD9E8FB405F0,
 				3B55EC180C10A5E81A13D8CD,
 				62BFA64462B8356D8EA52283,
+				C354819839DF0A1AB0DFBFA7,
 				918463C1B527E012EC997EF1,
 				0595D831CFA66BFEFA422F51,
 				4EEF8C47864221A91A668135,

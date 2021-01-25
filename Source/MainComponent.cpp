@@ -19,8 +19,25 @@ MainComponent::MainComponent()
         // Specify the number of input and output channels that we want to open
         setAudioChannels (2, 2);
     }
+    // load the soundfont from (some) directory...
+    auto sf = juce::File::getSpecialLocation(File::SpecialLocationType::currentApplicationFile).getFullPathName().toStdString();
+    size_t pos;
+    while ((pos = sf.find("\\")) != std::string::npos) {
+        sf.replace(pos, std::string("\\").length(), "/");
+    }
+    pos = sf.find_last_of("/");
+    sf = sf.substr(0, pos);
+    sf += "/Soundfont.sf2";
+#ifdef _WIN32 
+    sfSource.loadSoundfont(juce::File("C:/Users/Syl/Documents/Dev/Kalide/BusinessSecretsofthePharoahs/Kalide/Assets/CsoundFiles/SF2/KalideCHAN1.sf2"));
+    sfSource.setEnvelopeParam(SoundfontAudioSource::Release, 0.5);
+#elif defined __APPLE__
+    sfSource.loadSoundfont(juce::File(sf));
+#endif
     addAndMakeVisible(&touchRegion);
     touchRegion.addListener(this);
+    addAndMakeVisible(&paramControls);
+    paramControls.addListener(this);
 }
 
 MainComponent::~MainComponent()
@@ -32,38 +49,40 @@ MainComponent::~MainComponent()
 void MainComponent::touchRegionPressed(Region::TouchEvent e)
 {
     float velocity = e.pressure * 127;
-    synth.startNote(e.midiNote, velocity);
+    sfSource.noteOn(e.midiNote, velocity);
+
 }
 
 void MainComponent::touchRegionReleased(Region::TouchEvent e)
 {
     float velocity = e.pressure * 127;
-    synth.stopNote(e.midiNote, velocity);
+    sfSource.noteOff(e.midiNote, 1);
 }
 
+void MainComponent::onADSRChanged(SoundfontAudioSource::ADSR en, double value)
+{
+    sfSource.setEnvelopeParam(en, value);
+}
 
+void MainComponent::onProgramSelect(int bank, int preset)
+{
+    sfSource.programSelect(bank, preset);
+}
 
 //==============================================================================
 void MainComponent::prepareToPlay (int samplesPerBlockExpected, double sampleRate)
 {
-    std::shared_ptr<Wavetable> wtL = std::make_shared<Wavetable>(leftTable);
-    std::shared_ptr<Wavetable> wtR = std::make_shared<Wavetable>(rightTable);
-    wts.push_back(wtL);
-    wts.push_back(wtR);
-    synth.prepareToPlay(samplesPerBlockExpected, sampleRate);
+    sfSource.prepareToPlay(samplesPerBlockExpected, sampleRate);
 }
 
 void MainComponent::getNextAudioBlock (const juce::AudioSourceChannelInfo& bufferToFill)
 {
-    synth.getNextAudioBlock(bufferToFill);
+    sfSource.getNextAudioBlock(bufferToFill);
 }
 
 void MainComponent::releaseResources()
 {
-    // This will be called when the audio device stops, or when it is being
-    // restarted due to a setting change.
-
-    // For more details, see the help for AudioProcessor::releaseResources()
+    sfSource.releaseResources();
 }
 
 //==============================================================================
@@ -81,4 +100,5 @@ void MainComponent::resized()
     // If you add any child components, this is where you should
     // update their positions.
     touchRegion.setBounds(0, 0, getWidth(), (getHeight() /3) * 2 );
+    paramControls.setBounds(0, touchRegion.getY() + touchRegion.getHeight(), getWidth(), getHeight() / 3);
 }

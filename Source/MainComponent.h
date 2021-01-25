@@ -3,14 +3,16 @@
 #include <JuceHeader.h>
 #include <vector>
 #include "Components/TouchRegion.h"
-#include "AudioSources/Wavetable.h"
-#include "AudioSources/SynthAudioSource.h"
+#include "Components/ParamControls.h"
+#include "AudioSources/SoundfontAudioSource.h"
+
+
 //==============================================================================
 /*
     This component lives inside our window, and this is where you should put all
     your controls and content.
 */
-class MainComponent  : public juce::AudioAppComponent, public TouchRegion::Listener
+class MainComponent  : public juce::AudioAppComponent, public TouchRegion::Listener, ParamControls::Listener
 {
 public:
     //==============================================================================
@@ -20,6 +22,8 @@ public:
     void touchRegionPressed(Region::TouchEvent e) override;
     void touchRegionReleased(Region::TouchEvent e) override;
 
+    void onADSRChanged(SoundfontAudioSource::ADSR en, double v) override;
+    void onProgramSelect(int bank, int preset) override;
     //==============================================================================
     void prepareToPlay (int samplesPerBlockExpected, double sampleRate) override;
     void getNextAudioBlock (const juce::AudioSourceChannelInfo& bufferToFill) override;
@@ -33,9 +37,7 @@ private:
     //==============================================================================
     // Your private member variables go here...
     TouchRegion touchRegion;
-    juce::AudioSampleBuffer leftTable, rightTable;
-
-    std::vector<std::shared_ptr<Wavetable>> wts;
-    SynthAudioSource synth;
+    ParamControls paramControls;
+    SoundfontAudioSource sfSource;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
