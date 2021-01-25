@@ -20,6 +20,8 @@ MainComponent::MainComponent()
         setAudioChannels (2, 2);
     }
     // load the soundfont from (some) directory...
+
+#ifdef _WIN32
     auto sf = juce::File::getSpecialLocation(File::SpecialLocationType::currentApplicationFile).getFullPathName().toStdString();
     size_t pos;
     while ((pos = sf.find("\\")) != std::string::npos) {
@@ -28,10 +30,10 @@ MainComponent::MainComponent()
     pos = sf.find_last_of("/");
     sf = sf.substr(0, pos);
     sf += "/Soundfont.sf2";
-#ifdef _WIN32 
     sfSource.loadSoundfont(juce::File("C:/Users/Syl/Documents/Dev/Kalide/BusinessSecretsofthePharoahs/Kalide/Assets/CsoundFiles/SF2/KalideCHAN1.sf2"));
     sfSource.setEnvelopeParam(SoundfontAudioSource::Release, 0.5);
-#elif defined __APPLE__
+#else
+    auto sf = juce::File::getSpecialLocation(juce::File::SpecialLocationType::currentApplicationFile).getChildFile(String("Soundfont.sf2"));
     sfSource.loadSoundfont(juce::File(sf));
 #endif
     addAndMakeVisible(&touchRegion);

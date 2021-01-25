@@ -120,7 +120,7 @@
         <MODULEPATH id="juce_gui_extra" path="../../../../../../Program Files/JUCE/modules"/>
       </MODULEPATHS>
     </VS2019>
-    <XCODE_IPHONE targetFolder="Builds/iOS">
+    <XCODE_IPHONE targetFolder="Builds/iOS" iosDevelopmentTeamID="235P72BGQR" microphonePermissionNeeded="1">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
@@ -155,5 +155,6 @@
   </MODULES>
   <LIVE_SETTINGS>
     <WINDOWS/>
+    <OSX/>
   </LIVE_SETTINGS>
 </JUCERPROJECT>
