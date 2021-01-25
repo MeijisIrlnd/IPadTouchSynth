@@ -36,6 +36,8 @@ public:
 private:
     //==============================================================================
     // Your private member variables go here...
+    juce::Image background;
+    juce::ImageComponent backgroundComponent;
     TouchRegion touchRegion;
     ParamControls paramControls;
     SoundfontAudioSource sfSource;

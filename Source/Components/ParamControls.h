@@ -88,7 +88,7 @@ public:
     void resized() override
     {
         adsrPanel.setBounds(0, 0, getWidth() / 3, getHeight());
-        programSelector.setBounds(adsrPanel.getX() + adsrPanel.getWidth(), 0, getWidth() / 3, getHeight());
+        programSelector.setBounds(adsrPanel.getX() + adsrPanel.getWidth(), 0, getWidth() / 2, getHeight());
     }
 private:
     ADSRControls adsrPanel;

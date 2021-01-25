@@ -55,14 +55,24 @@ public:
             currentElement = currentElement->NextSiblingElement();
         }
         delete ipStream;
+        bankSliderLabel.setText("Bank", juce::dontSendNotification);
+        addAndMakeVisible(&bankSliderLabel);
+        bankNameReadout.setText("0", juce::dontSendNotification);
+        addAndMakeVisible(&bankNameReadout);
         bankSlider.setSliderStyle(juce::Slider::SliderStyle::LinearHorizontal);
-        bankSlider.setRange(0, soundfontManifest.size(), 1);
+        bankSlider.setRange(0, soundfontManifest.size() - 1, 1);
         bankSlider.setValue(0);
+        bankSlider.setTextBoxStyle(juce::Slider::NoTextBox, true, 0, 0);
         addAndMakeVisible(&bankSlider);
+        presetSliderLabel.setText("Preset", juce::dontSendNotification);
+        addAndMakeVisible(&presetSliderLabel);
+        presetNameReadout.setText("Utility", juce::dontSendNotification);
+        addAndMakeVisible(&presetNameReadout);
         bankSlider.addListener(this);
         presetSlider.setSliderStyle(juce::Slider::SliderStyle::LinearHorizontal);
         presetSlider.setRange(0, 1, 0.01);
         presetSlider.setValue(0);
+        presetSlider.setTextBoxStyle(juce::Slider::NoTextBox, true, 0, 0);
         addAndMakeVisible(&presetSlider);
         presetSlider.addListener(this);
     }
@@ -79,7 +89,9 @@ public:
     void sliderValueChanged(juce::Slider* s) override
     {
         auto bankValue = bankSlider.getValue();
-        auto presetValue = std::round(presetSlider.getValue() * soundfontManifest[bankSlider.getValue()].size());
+        auto presetValue = (int)(presetSlider.getValue() * (soundfontManifest[bankValue].size() - 1));
+        bankNameReadout.setText(soundfontManifest[bankValue][presetValue].bankName, juce::dontSendNotification);
+        presetNameReadout.setText(soundfontManifest[bankValue][presetValue].presetName, juce::dontSendNotification);
         if (pListener != nullptr) {
             pListener->soundfontProgramChanged((int)bankValue, (int)presetValue);
         }
@@ -92,13 +104,19 @@ public:
 
     void resized() override
     {
-        bankSlider.setBounds(0, 0, getWidth(), getHeight() / 4);
-        presetSlider.setBounds(0, getHeight() / 2, getWidth(), getHeight() / 4);
+        bankSliderLabel.setBounds(0, 0, getWidth() / 5, getHeight() / 4);
+        bankSlider.setBounds(bankSliderLabel.getWidth(), 0, getWidth() - (bankSliderLabel.getWidth() * 2), getHeight() / 4);
+        bankNameReadout.setBounds(bankSlider.getX() + bankSlider.getWidth(), 0, getWidth() / 5, getHeight() / 4);
+        presetSliderLabel.setBounds(0, getHeight() / 2, getWidth() / 5, getHeight() / 4);
+        presetSlider.setBounds(presetSliderLabel.getWidth(), getHeight() / 2, getWidth() - (presetSliderLabel.getWidth() * 2), getHeight() / 4);
+        presetNameReadout.setBounds(presetSlider.getX() + presetSlider.getWidth(), presetSlider.getY(), getWidth() / 5, getHeight() / 4);
     }
 private:
     Listener* pListener;
     std::vector<std::vector<SOUNDFONTPRESET> > soundfontManifest;
+    juce::Label bankSliderLabel;
     juce::Slider bankSlider;
+    juce::Label presetSliderLabel;
     juce::Slider presetSlider;
     juce::Label bankNameReadout, presetNameReadout;
 };

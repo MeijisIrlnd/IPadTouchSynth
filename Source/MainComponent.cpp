@@ -6,7 +6,7 @@ MainComponent::MainComponent()
     // Make sure you set the size of the component after
     // you add any child components.
     setSize (800, 600);
-
+    
     // Some platforms require permissions to open input channels so request that here
     if (juce::RuntimePermissions::isRequired (juce::RuntimePermissions::recordAudio)
         && ! juce::RuntimePermissions::isGranted (juce::RuntimePermissions::recordAudio))
@@ -20,6 +20,7 @@ MainComponent::MainComponent()
         setAudioChannels (2, 2);
     }
     // load the soundfont from (some) directory...
+
 
 #ifdef _WIN32
     auto sf = juce::File::getSpecialLocation(File::SpecialLocationType::currentApplicationFile).getFullPathName().toStdString();
@@ -36,6 +37,10 @@ MainComponent::MainComponent()
     auto sf = juce::File::getSpecialLocation(juce::File::SpecialLocationType::currentApplicationFile).getChildFile(String("Soundfont.sf2"));
     sfSource.loadSoundfont(juce::File(sf));
 #endif
+    background = ImageCache::getFromMemory(BinaryData::Background_png, BinaryData::Background_pngSize);
+    background = background.rescaled(getWidth() + getWidth() / 4, getHeight() + getHeight() / 4);
+    backgroundComponent.setImage(background);
+    addAndMakeVisible(&backgroundComponent);
     addAndMakeVisible(&touchRegion);
     touchRegion.addListener(this);
     addAndMakeVisible(&paramControls);
@@ -101,6 +106,8 @@ void MainComponent::resized()
     // This is called when the MainContentComponent is resized.
     // If you add any child components, this is where you should
     // update their positions.
+    backgroundComponent.setImage(background.rescaled(getWidth(), getHeight(), juce::Graphics::highResamplingQuality));
+    backgroundComponent.setBounds(0, 0, getWidth(), getHeight());
     touchRegion.setBounds(0, 0, getWidth(), (getHeight() /3) * 2 );
     paramControls.setBounds(0, touchRegion.getY() + touchRegion.getHeight(), getWidth(), getHeight() / 3);
 }

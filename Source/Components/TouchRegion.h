@@ -29,13 +29,6 @@ public:
 
     TouchRegion()
     {
-        // Get width... 
-        coordinateReadout.setText("HelloWorld", juce::dontSendNotification);
-        addAndMakeVisible(&coordinateReadout);
-        displacementReadout.setText("", juce::dontSendNotification);
-        addAndMakeVisible(&displacementReadout);
-        // In your constructor, you should add any child components, and
-        // initialise any special settings that your component needs.
 
     }
 
@@ -110,13 +103,10 @@ public:
                 item->setBounds(itemPos.x, itemPos.y, itemDims.x, itemDims.y);
             }
         }
-        coordinateReadout.setBounds(getWidth() / 2 - getWidth() / 8, 0, getWidth() / 4, getHeight() / 8);
-        displacementReadout.setBounds(coordinateReadout.getX(), coordinateReadout.getY() + coordinateReadout.getHeight(), coordinateReadout.getWidth(), coordinateReadout.getHeight());
 
     }
 
 private:
-    juce::Label coordinateReadout, displacementReadout;
     std::vector<std::vector<std::shared_ptr<Region>> > quadrants;
     Listener* pListener;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TouchRegion)
